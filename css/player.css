@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.menu-item {
+  position: relative;
+}
+
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.catalogo-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.catalogo-header h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.catalogo-header p {
+  font-size: 20px;
+  color: #666;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container-catalogo {
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 40px;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.album img {
+  width: 200px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.album button {
+  height: 30px;
+  width: 120px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.artista-titulo {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.player img {
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.player h3 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.player p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.player audio {
+  width: 250px;
+}
